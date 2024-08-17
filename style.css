@@ -1,0 +1,90 @@
+@media (max-width: 585px) {
+    header .item {
+      margin-top: 80px;
+      text-align: center;
+    }
+  }
+      section {
+    padding: 50px 0px;
+  }
+  .cap-photo{
+      font-size: xx-large;
+      color: green;
+  }
+      .container-img {
+    width: 100%;
+  }
+      .container-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .dishes {
+      background-color: #8080803b;}
+  .dish, .menu {
+    background-color: #fff;
+    box-shadow: 5px 10px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 100%;
+  }
+  
+      @media (max-width: 585px) {
+    .container-img {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 585px) {
+    .container-img img {
+      margin-top: 10px;
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .btn-add{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    transition: 0.8s;
+  }
+  .btn-add:hover{
+      background-color: green;
+  }
+  span{
+      font-size: large;
+      color: green;
+  }
+  .about .lable {
+    padding: 15px 25px;
+    background-color:beige;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .fa-shipping-fast::before, .fa-truck-fast::before {
+    content: "\f48b";
+  }
+  .btn-learn {
+    margin-top: 20px;
+  }
+  .btn-photo {
+    padding: 5px 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    transition: 0.4s;
+  }
+  .btn-photo:hover {
+    background-color: orange;
+    letter-spacing: 2px;
+  }
+  .menus {
+    background-color: #8080803b;
+  }
+  .menu .image img {
+    border-radius: 5px;
+    height: 250px;
+  }
+  .dishes img {
+    height: 180px;
+  }
